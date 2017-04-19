@@ -63,6 +63,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.nib.nib">
+            function <span class="apidocSignatureSpan"></span>nib
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">nib.</span>path</span>
 
         </li>
@@ -79,6 +88,38 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.nib" id="apidoc.module.nib">module nib</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.nib.nib" id="apidoc.element.nib.nib">
+        function <span class="apidocSignatureSpan"></span>nib
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function plugin() {
+  return function(style){
+    style.include(__dirname);
+
+    if (Canvas) {
+      style.define(&#x27;has-canvas&#x27;, nodes.true);
+
+      // gradients
+      style.define(&#x27;create-gradient-image&#x27;, gradient.create);
+      style.define(&#x27;gradient-data-uri&#x27;, gradient.dataURL);
+      style.define(&#x27;add-color-stop&#x27;, gradient.addColorStop);
+
+      // color images
+      style.define(&#x27;create-color-image&#x27;, colorImage.create);
+      style.define(&#x27;color-data-uri&#x27;, colorImage.dataURL);
+    } else {
+      style.define(&#x27;has-canvas&#x27;, nodes.false);
+    }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
 
