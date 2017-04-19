@@ -1,9 +1,14 @@
-# api documentation for  [nib (v1.1.2)](https://github.com/visionmedia/nib#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nib)
+# npmdoc-nib
+
+#### api documentation for  [nib (v1.1.2)](https://github.com/visionmedia/nib#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nib.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nib) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nib.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nib)
+
 #### Stylus mixins and utilities
 
-[![NPM](https://nodei.co/npm/nib.png?downloads=true)](https://www.npmjs.com/package/nib)
+[![NPM](https://nodei.co/npm/nib.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nib)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-nib/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-nib_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-nib/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-nib/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-nib/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-nib/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-nib/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-nib/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "TJ Holowaychuk",
-        "email": "tj@vision-media.ca"
+        "name": "TJ Holowaychuk"
     },
     "bugs": {
         "url": "https://github.com/visionmedia/nib/issues"
@@ -47,17 +51,14 @@
     "main": "lib/nib.js",
     "maintainers": [
         {
-            "name": "tjholowaychuk",
-            "email": "tj@vision-media.ca"
+            "name": "tjholowaychuk"
         },
         {
-            "name": "slang",
-            "email": "slang800@gmail.com"
+            "name": "slang"
         }
     ],
     "name": "nib",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/visionmedia/nib.git"
@@ -69,18 +70,6 @@
     "version": "1.1.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module nib](#apidoc.module.nib)
-1.  string <span class="apidocSignatureSpan">nib.</span>path
-1.  string <span class="apidocSignatureSpan">nib.</span>version
-
-
-
-# <a name="apidoc.module.nib"></a>[module nib](#apidoc.module.nib)
 
 
 
